@@ -1,0 +1,271 @@
+@media screen and (max-width: 850px) {
+
+header {
+  height: 60px;
+  }
+
+  .header-nav {
+    position: relative;
+  }
+
+  .header-nav img {
+    transform: scale(.3);
+  }
+
+  .header-logo img {
+    width: 100px;
+  }
+
+  label {
+    display: block;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    z-index: 200;
+  }
+
+  .header-nav ul {
+    display: block;
+    padding-top: 40px;
+    height: 200px;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(255,255,255,0.8);
+    position: absolute;
+    top: -250px;
+    right: 0;
+    z-index:100;
+    transition: all 0.2s;
+  }
+
+  input {
+    display: block;
+    position: absolute;
+    top:-500px;
+  }
+
+  input:checked ~ .header-nav ul {
+    top: 10px;
+  }
+
+  .header-img .header-background {
+    display: none;
+  }
+
+  .header-img .header-background-sp {
+    display: inline;
+  }
+
+  .header-img .header-slider {
+    width: 60%;
+  }
+
+  .section {
+    width: 90%;
+  }
+
+  .section1 p {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 130%;
+    text-align: left;
+  }
+
+  .section1 .btn {
+    width: 80%;
+  }
+
+  .section2-flex {
+    flex-direction: column;
+  }
+
+  .section-reason-text h3 {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .section-reason-text {
+    width: 100%;
+  }
+
+  .section2-subtitle {
+    padding-left: 60px;
+    margin: 10px 0;
+  }
+
+  .section-reason-text p {
+    text-align: left;
+  }
+
+  .section-reason-text .text-left {
+    margin-bottom: 20px;
+  }
+
+
+  .section3 {
+    background-color: #928377;
+    width: 100%;
+  }
+  
+  .section3-top .ribbon-yellow {
+  width: 40%;
+  line-height: 28px;
+  }
+  
+  .section3-top h2 {
+    font-weight: normal;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+  
+  }
+  
+  .section3-contents {
+    flex-direction: column;
+  }
+  
+  .section3-contents-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  .section3-contents img {
+    min-width: 200px;
+    max-height: 200px;
+  }
+  
+.section3-sp {
+  width: 55%;
+}
+  .section3-contents-text .company {
+    font-size: 12px;
+  }
+  .section3-contents-text .name {
+  font-size: 16px;
+  }
+  
+  .section3-contents-text img {
+    width: 40%;
+    margin-right: 10px;
+  }
+  
+  .section3 .btn {
+    width: 60%;
+    
+  }
+  
+.section4 {
+  height: 640px;
+}
+
+  .section4 > p {
+    font-size: 10px;
+  }
+
+  .section4 h2 {
+    font-size: 24px;
+  }
+
+  .section4-contents .section4-img {
+    width: 40%;
+    min-width: 200px;
+    top: 240px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+
+  .section4-contents .section4-text {
+    width: 80%;
+    text-align: left;
+    padding: 10px 10px 60px 10px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .section4-contents .section4-text h3 {
+    margin: 0;
+  }
+
+  .organic-img img {
+    display: none;
+  }
+  
+  .organic-img p {
+    width: 90%;
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+    margin: 20px 0 20px ;
+  }
+
+
+  .category-img {
+    width: calc(100% / 3);
+  }
+  
+  .category-img img {
+    width: calc(100% - 40px);
+  }
+  .category-img2 {
+    width: calc(100% / 3 * 2);
+    border-right:none;
+  }
+
+  .section6-producers {
+    display: block;
+  }
+  
+  .producers-img {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .producers-img-sp-off {
+    display: none;
+  }
+
+  .people-card {
+    width:100%;
+  }
+
+  .card-sp-off {
+    display: none;
+  }
+
+  .answer-box .answer-text {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+
+
+  footer {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+
+  .footer-img {
+      width: 60%;
+      padding: 30px 0;
+      margin: 0 auto;
+    }
+    
+    .footer-text {
+      text-align: center;
+      font-size: 12px;
+      bottom: 10%;
+      right: 50%;
+      transform: translateX(50%);
+
+    }
+}
+

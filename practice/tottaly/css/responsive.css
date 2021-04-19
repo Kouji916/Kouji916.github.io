@@ -1,0 +1,51 @@
+@media screen and (max-width: 900px) {
+  
+  .header-wrapper {
+    border: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .header-wrapper h1 {
+    padding: 15px 0; 
+    font-size: 20px;
+  }
+
+  .header-nav {
+    overflow: hidden;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+
+
+  .main-img {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .main-img img {
+    width: 100%;
+  }
+
+  .main-contents {
+    width: 90%;
+    margin: 0 auto;
+
+  }
+  
+  .main-h2 {
+    width: 100%;
+    margin: 10px auto 0; 
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    display: block;
+  }
+
+  footer {
+    margin-top: 60px;
+  }
+}

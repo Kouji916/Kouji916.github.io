@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+}
+
+.header-wrapper {
+  border-bottom: 1px solid #000;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.header-wrapper h1  {
+  text-align: center;
+  font-size: 19px;
+  padding: 45px 0 15px;
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding:0 20px 0 30px;
+}
+
+ul li {
+  list-style: none;
+  padding: 0 8px;
+  font-size: 8px;
+
+}
+.header-left {
+margin-right: auto;
+}
+
+.header-left ul {
+display: flex;
+padding: 0;
+}
+
+.header-right {
+  margin-left: auto;
+}
+
+.header-right ul {
+  display: flex;
+  padding: 0;
+ 
+}
+
+main {
+  width: 65%;
+  margin: 50px auto;
+  display: flex;
+}
+
+.main-img {
+  width: 55%;
+}
+
+.main-img img {
+width: 100%;
+}
+
+.main-contents {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.main-h2 {
+  width: 100%;
+  padding: 0 auto;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  display: inline-block;
+}
+
+.main-h2 h2 {
+  font-size: 12px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.main-contents p {
+ line-height: 25px;
+ font-size: 10px;
+ padding: 10px 0;
+}
+span {
+  vertical-align: 3px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.add {
+  background-color: #000;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.add a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding-top: 18px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.size {
+  margin-top: 30px;
+  border: 1px solid darkgray ;
+}
+.size th {
+  font-size: 10px;
+  font-weight: normal;
+  padding: 10px;
+  text-align: center;
+  background-color: #ECEBEB;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 30px;
+
+}

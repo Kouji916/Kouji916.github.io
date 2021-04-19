@@ -1,0 +1,652 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  height: 90px;
+  margin: 0 auto;
+}
+
+input , label {
+  display: none;
+}
+
+.header-logo {
+  width: 200px;
+}
+
+.header-logo img {
+  width: 200px;
+  padding-top: 16px;
+}
+
+.header-nav {
+  margin-left: auto;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  padding: 0;
+}
+
+.header-nav ul li {
+  min-width: 120px;
+  padding: 10px 0 0 0;
+}
+
+.header-nav ul li:last-child {
+  padding-right: 0;
+}
+
+.header-nav ul p {
+  margin: 0;
+}
+
+.header-nav-rubi {
+  font-size: 10px;
+  color: red;
+  font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+}
+
+.header-nav-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-img {
+  width: 100%;
+  position: relative;
+}
+
+.header-img .header-background {
+  width: 100%;
+}
+
+.header-img .header-slider {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-img .header-background-sp {
+  width: 100%;
+  display: none;
+}
+
+.section1 {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.section1 p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 150%;
+  padding-bottom: 30px;
+}
+
+.section1 .btn {
+width: 30%;
+padding-bottom: 30px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.section2 {
+  text-align: center;
+  background-color: #F3F5EF;
+}
+
+.section2 .section2-contents h2 {
+  font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+  border-bottom: 2px solid #E7DED8;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0 10px;
+}
+
+.section2-flex {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+
+.section-reason-text h3 {
+  color: #fff;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 27px;
+  padding: 0;
+  margin: 30px 0;
+ 
+}
+
+.section2-flex .reason1 h3 {
+  background-image: url("../img/square_red.jpg");
+}
+.section2-flex .reason2 h3 {
+  background-image: url("../img/square_green.jpg");
+}
+.section2-flex .reason3 h3 {
+  background-image: url("../img/square_orange.jpg");
+}
+
+
+
+.section-reason-text {
+  width: calc((100% / 3) - 30px)
+}
+
+.section-reason-text p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.section-reason-text .section2-reason-subtitle {
+  font-size: 30px;
+  color:red;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.section-reason-text .text-left {
+  text-align: left;
+  line-height: 24px;
+  border-top: 2px solid #E7DED8;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+  font-size: 1.8em;
+}
+
+.section3 {
+  background-color: #928377;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section3 > p {
+  font-size: 10px;
+  color: yellow;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0 10px;
+}
+
+.section3-top {
+  display: flex;
+  width: 90%;
+  margin: 0 auto 30px;
+  justify-content: center;
+  font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+  padding-bottom: 30px;
+  border-bottom: 2px solid #E7DED8;
+}
+
+.section3-top .ribbon-yellow {
+width: 200px;
+background-image: url("../img/ribbon_yellow.png");
+background-size: 100%;
+background-repeat: no-repeat;
+text-align: center;
+margin: 0 20px 0 0;
+line-height: 48px;
+}
+
+.section3-top h2 {
+  font-weight: normal;
+  color: #fff;
+  margin: 0;
+  font-size: 36px;
+  line-height: 48px;
+
+}
+
+.section3-flex {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.section3-contents {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.section3-contents-text {
+  width: calc(50% - 30px);
+  color: #fff;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.section3-contents-text p{
+  margin: 0;
+}
+
+.section3-contents-text .producer {
+  font-size: 10px;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+}
+.section3-contents-text .adress {
+  font-size: 10px;
+  padding: 5px 10px;
+}
+.section3-contents-text .company {
+  font-size: 16px;
+}
+.section3-contents-text .name {
+font-size: 24px;
+font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+padding: 10px 10px;
+border-bottom: .5px solid #fff;
+}
+.section3-contents-text .money {
+  padding: 15px 0 ;
+}
+
+.tax {
+  font-size: 10px;
+
+}
+
+.section3-contents-text img {
+  width: 100%;
+}
+
+.section3 .btn {
+  width: 30%;
+  
+}
+
+.section4 {
+  width: 100%;
+  height: 500px;
+  background-color:#FCFAF0;
+  padding: 60px 0 0 0;
+  text-align: center;
+
+}
+
+.section4 > p {
+  margin: 0;
+}
+
+.section4 h2 {
+  font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+  font-size: 36px;
+  border-bottom: 2px solid #E7DED8;
+  padding-bottom: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section4-contents {
+  width: 90%;
+  margin: 0 auto;
+  position:relative;
+}
+
+.section4-contents .section4-img {
+  width: 35%;
+  position:absolute;
+  top: 40px;
+  left: 10%;
+  z-index: 2;
+}
+
+.section4-contents .section4-img img {
+  width: 100%;
+}
+
+.section4-contents .section4-text {
+  color: #fff;
+  background-color: #69594D;
+  text-align: left;
+  padding:10px 80px;
+  position: absolute;
+  top: 15px;
+  left: 40%;
+  z-index: 1;
+}
+.section4-contents .section4-text h3 {
+font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+font-size: 16px;
+font-weight: normal;
+}
+
+.section4-contents .section4-text p {
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.dotted {
+  border-bottom: 1px dotted #fff;
+  padding-bottom: 4px;
+}
+
+.section5 {
+  width: 100%;
+  background-color:#fff;
+  padding: 60px 0 0 0;
+  text-align: center;
+
+}
+
+.section5 > p {
+  margin: 0;
+}
+
+.section5 h2 {
+  font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+  font-size: 36px;
+  border-bottom: 2px solid #E7DED8;
+  padding-bottom: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.organic-img {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #E7DED8;
+  margin-bottom: 30px;
+}
+
+.organic-img img {
+  width: 30%;
+  margin: 30px;
+}
+
+.organic-img p {
+  font-size: 10px;
+  text-align: left;
+  line-height: 20px;
+  margin: 40px 0 20px ;
+}
+
+.yellow-green {
+  color: #AEA620;
+}
+
+.category {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.category-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto 60px;
+}
+
+.category > p {
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+  background-color: #eee8aa;
+  border-radius: 10px;
+ 
+}
+
+.category-img {
+  width: 20%;
+  border-right: 1px solid silver;
+  box-sizing: border-box;
+}
+
+.category-img img {
+  width: calc(100% - 40px);
+  padding: 20px;
+}
+.category-img2 {
+  width: 40%;
+  border-right: 1px solid silver;
+  box-sizing: border-box;
+}
+
+.category-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-img-group img {
+  width: calc(50% - 40px);
+  padding: 20px;
+}
+
+.category-img p , .category-img2 p {
+  font-size: 10px;
+}
+
+.section6 {
+  width: 100%;
+  background-color: #FCFAF0;
+  padding: 60px 0 0 0;
+  text-align: center;
+
+}
+
+.section6 > p {
+  margin: 0;
+}
+
+.section6 h2 {
+  font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+  font-size: 36px;
+  border-bottom: 2px solid #FFF7D8;
+  padding-bottom: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section6-producers {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.producers-img {
+  width: calc(50% - 60px);
+  padding: 30px;
+}
+
+.producers-img p {
+  text-align: left;
+  font-size: 12px;
+}
+
+.ken {
+  background-color: yellow;
+  padding: 5px;
+  border: 1px solid silver;
+  margin-right: 5px;
+}
+
+.producers-img img {
+  width: 100%;
+}
+
+.section7 {
+  width: 100%;
+  background-color: #fff;
+  padding: 60px 0 0 0;
+  text-align: center;
+
+}
+
+.section7 > p {
+  margin: 0;
+}
+
+.section7 h2 {
+  font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+  font-size: 36px;
+  border-bottom: 2px solid #FFF7D8;
+  padding-bottom: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section7-people {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 60px;
+  
+}
+
+.people-card {
+  background-color: #FEF2E3;
+  text-align: left;
+  width: calc((100% / 3) - 30px);
+  margin: 10px;
+}
+
+.card-head {
+  display: flex;
+  padding-left: 15px;
+}
+
+.card-img img{
+  width: 100%;
+}
+
+.card-intro {
+  padding-left: 15px;
+}
+
+.card-head h4 {
+  font-size: 12px;
+  line-height: 30px;
+  padding-top: 12px;
+  color: red;
+  font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+}
+
+.card-head p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.card-text {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 15px;
+}
+
+.section8 {
+  text-align: center;
+  background-color: #EFF4F8;
+  padding: 30px 0 60px;
+}
+.section8 h2 {
+  font-family: 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN';
+  font-size: 36px;
+  border-bottom: 2px solid #FFF7D8;
+  padding-bottom: 10px;
+  width: 90%;
+  margin: 30px auto;
+}
+
+.section8 .QA-box {
+  width: 80%;
+  margin: 0 auto 30px;
+  text-align: left;
+  border: 1px solid silver;
+  background-color: #fff;
+}
+
+.section8 .QA-box:last-child {
+  margin-bottom: 0;
+}
+
+.question {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.question .question-head {
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 2px 5px;
+  margin-right: 20px;
+}
+
+.answer {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.answer .answer-head {
+  background-color: orange;
+  border-radius: 50%;
+  padding: 2px 5px;
+  margin-right: 20px;
+}
+
+.answer-box .answer-text {
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-bottom: 20px;
+  font-size: 14px;
+
+}
+
+footer {
+display: flex;
+position:relative;
+}
+
+.footer-img {
+  width: 20%;
+  padding: 30px 0;
+  margin-left: 5%;
+}
+
+.footer-img img {
+  width: 100%;
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 10px;
+}
