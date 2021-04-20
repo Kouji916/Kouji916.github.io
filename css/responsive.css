@@ -185,26 +185,32 @@ input, select {
 
   .profile-img {
     width: 80%;
+    margin-right: 0;
     margin-bottom: 30px;
   }
 
-  .results-wrapper {
+  .works-wrapper {
     flex-direction: column;
   }
 
-  .results {
+  .works {
     width: 90%;
     text-align: center;
     margin: 0 auto;
     
   }
 
-  .results p {
+  .works p {
     padding-bottom: 30px;
     border-bottom: 2px dotted #d3d3d3;
   }
-  .results a p {
+  .works a p {
     padding-bottom: 0;
     border-bottom: none;
   }
+
+  .twitter-wrapper img {
+    width: 70%;
+}
+
 }

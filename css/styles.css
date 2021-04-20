@@ -272,6 +272,8 @@ tr td {
 .twitter-wrapper img {
   width: 30%;
   margin: 30px;
+  border-radius: 50%;
+  border: 5px solid #87cefa;
 }
 
 .btn {
