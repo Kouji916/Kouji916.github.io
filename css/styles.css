@@ -194,14 +194,14 @@ section h2 {
 
 .profile-wrapper {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 60px;
 }
 
 .profile-img {
   width: 35%;
-  
+  margin-right: 60px;
 }
 
 .profile-img img {
@@ -209,6 +209,7 @@ section h2 {
   border-radius: 50%;
   border: 5px solid #9acd32;
   box-shadow: 5px 10px 10px 0 #d3d3d3; 
+  box-sizing: border-box;
 }
 
 .profile-text table {
@@ -221,7 +222,7 @@ tr td {
   line-height: 20px;
 }
 
-.results-wrapper {
+.works-wrapper {
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -230,24 +231,31 @@ tr td {
   padding-bottom: 60px;
 }
 
-.results a img {
+.works {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom : 20px;
+}
+
+.works a img {
   width: 90%;
   border: 1px solid silver;
 }
 
-.results-text {
+.works-text {
   max-height: 200px;
   overflow-y: auto;
 }
 
-.results p {
+.works p {
   line-height: 25px;
   margin: 30px 0;
   font-size: 12px;
   text-align: left;
 }
 
-.results a p {
+.works a p {
   width: 100%;
   margin-top: 0;
   padding-top: 5px;
@@ -255,9 +263,30 @@ tr td {
   margin: 0 auto;
 }
 
-.results {
+.twitter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.twitter-wrapper img {
   width: 30%;
+  margin: 30px;
+}
+
+.btn {
+  min-width: 150px;margin-bottom: 30px;
+  box-shadow: 1px 3px 5px  #000;
   text-align: center;
-  margin-bottom: 30px;
-  padding-bottom : 20px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: 'Georgia';
+  line-height: 35px;
+  background-color: #87cefa;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: .7;
 }
