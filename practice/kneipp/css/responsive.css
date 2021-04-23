@@ -1,0 +1,132 @@
+@media screen and (max-width: 750px) {
+
+  header {
+    background-position-x: center;
+    background-position-y:top;
+  }
+  
+  .top {
+    left: 70%;
+  }
+
+  .sp-off {
+    display: none;
+  }
+
+  .header-img {
+    width: 80%;
+    top: 80%;
+  }
+
+  .sp-on {
+    display: inline-block;
+  }
+
+  .section2 img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section2 .sp-off {
+    display: none;
+  }
+
+  .component-wrapper {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .component {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .component img {
+    width: 50%;
+  }
+
+  .component-container ul {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+
+  .detail-green img {
+    width: 60%;
+    margin-top: 10px;
+  }
+
+  .bath-img {
+    width: 80%;
+    height: 400px;
+  }
+
+  .bath-img .bath-text {
+    display: inline-block;
+    width: 40%;
+    z-index: 1;
+ 
+  }
+
+  .bath-img .bath-woman {
+    display: inline-block;
+    width: 60%;
+  }
+
+  .section3-main {
+    width: 80%;
+    padding: 150px 0 50px;
+  }
+
+  .section3-main .main-text {
+    width: 100%;
+  }
+
+  .section3-main .main-img { 
+    width: 60%;
+    top: -35%;
+    left: 5%;
+  }
+
+  .section4 .shop-wrapper {
+    width: 95%;
+    margin:  60px auto;
+  }
+
+  .shop-wrapper h2 {
+    font-size: 28px;
+  }
+
+  .shop-wrapper .sp-on {
+    display: block;
+  }
+
+  .shop-wrapper .sp-off {
+    display: none;
+  }
+
+  .shop-wrapper p {
+    width: 90%;
+    font-size: 24px;
+}
+
+  .shop-wrapper .※ {
+      font-size: 20px;
+      margin: 10px auto;
+  }
+
+  .shop-wrapper a {
+    width: 80%;
+  }
+
+  .contact-wrapper a {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .contact-wrapper a:nth-child(2){
+    margin-right:0;
+  }
+
+}

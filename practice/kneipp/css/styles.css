@@ -1,0 +1,413 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* ここからCSS */
+
+body {
+    background-color: #FEF1CB;
+}
+header {
+background-image: url("https://www.kneipp.jp/lp/yuzu/shared/img/main_bg.jpg");
+background-repeat: no-repeat;
+background-position-y: top;
+background-position-x: center;
+height: 780px;
+position: relative;
+}
+
+.top {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+
+.header-img {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    margin: 0 auto;
+}
+.header-img img {
+    width: 100%;
+}
+
+.sp-on {
+    display: none;
+}
+
+.section1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.section1 > img {
+    width: 30%;
+}
+
+.section1 p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #333333;
+    line-height: 35px;
+    padding: 40px 0;
+}
+
+.price {
+    font-size: 14px;
+}
+
+.btn a {
+    width: 375px;
+    height: 60px;
+    color: #fff; 
+    border-radius: 5px;
+    display: inline-block;
+    margin: 24px auto;
+    line-height: 60px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s;
+    position: relative;
+}
+
+.btn-green a:after {
+    content: "";
+    background-image: url("../img/>.png");
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    transition: all .2s;
+}
+
+.btn a:hover {
+    opacity: .7;
+}
+
+.btn a:hover:after {
+    right: 15px;
+}
+
+.btn-green a {
+    background-color: #014B49;
+}
+
+.detail-orange img {
+    width: 375px;
+}
+
+.detail-orange img:hover {
+    opacity: .7;
+}
+
+.section2 {
+    width: 65%;
+    margin: 60px auto;
+    border: 20px dotted #4CA203;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section2 img {
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.section2 a:hover {
+    opacity: .8;
+}
+
+.component-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.component {
+    width: 40%;
+}
+
+.component-container ul {
+    color: #4CA203;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 auto;
+    width: 120px;
+    list-style:none;
+    margin: 0 auto;
+}
+
+.component-container ul li img {
+    padding: 0 5px 0 0;
+    width: 18px;
+    display: inline-block;
+}
+
+.detail-green img {
+    margin: 20px auto;
+    width: 70%;
+}
+
+.section3 {
+    padding: 80px 0;
+    background-color: #FFD800;
+    background-image: url("https://www.kneipp.jp/lp/yuzu/shared/img/c03_bg.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+.section3 .section3-head {
+    display: block;
+    width: 30%;
+    margin:0 auto 60px;
+}
+
+.bath-img {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    height: 400px;
+    
+}
+
+.section3-main {
+    width: 60%;
+    margin: 60px auto;
+    position: relative;
+    padding: 100px 0 150px;
+}
+
+.section3-main .main-text{
+    width: 80%;
+}
+
+.section3-main .main-img { 
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    width: 40%;
+    max-width: 400px;
+}
+
+.section3 .detail-orange img {
+    display: block;
+    margin: 0 auto;
+    transition: all .3s;
+}
+
+.section4 {
+    background-color: #FAF2CB;
+    text-align: center;
+}
+
+.section4 .shop-wrapper {
+    border: 5px dotted #FFDC2D;
+    width: 75%;
+    margin:30px auto;
+    background-color: #FCEFBA;
+}
+
+.shop-wrapper .sp-on {
+    display:none;
+}
+
+.shop-wrapper img {
+    width: 75%;
+    margin: 30px auto 0;
+}
+
+.shop-wrapper h2 {
+    font-size: 20px;
+    margin: 30px 0;
+    color: #545454;
+}
+
+.shop-wrapper p {
+    color: #545454;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.shop-wrapper .※ {
+    font-size: .8rem;
+    margin: 10px auto;
+}
+
+.shop-wrapper a {
+    display: block;
+    width: 40%;
+    margin: 30px auto;
+    transition: all .3s;
+}
+
+.shop-wrapper a:hover {
+    opacity: .8;
+}
+
+.shop-wrapper a img {
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+    background-color: #FFD800;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.contact-wrapper a {
+    width: 18%;
+    display: block;
+    margin-right: 20px;
+    transition: all .3s;
+}
+
+.contact-wrapper a:hover {
+    opacity: .8;
+}
+
+.contact-wrapper a:last-child {
+    margin-right: 0;
+}
+
+.contact-wrapper a img {
+    width: 100%;
+
+}
+
+footer .privacy {
+    display: block;
+    text-decoration: underline;
+    margin: 30px 0 20px;
+    font-size: .9rem;
+}
+
+footer .privacy:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer p {
+    color: #333333;
+    font-size: .8rem;
+
+}
