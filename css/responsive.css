@@ -1,5 +1,14 @@
 @media screen and (max-width: 600px) {
 
+  .header-nav ul{
+    width: 90%;
+  }
+
+  .btn {
+    margin-right: 5px;
+    padding: 2px 5px;
+  }
+
   .works-wrapper {
     flex-direction: column;
   }
@@ -9,4 +18,5 @@
     margin: 0 auto 60px;
   }
 
+  
 }
