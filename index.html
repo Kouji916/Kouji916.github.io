@@ -13,115 +13,103 @@
 <body>
 
   <header>
-    <nav class="header-nav">
-      <div class="header-logo">
-        <img src="img/header-logo.jpg">
-      </div>
-      <input type="checkbox" id="humbarger">
-      <label for="humbarger"><img src="img/humbarger-on.png"></label>
-      <ul>
-        <label for="humbarger"><img src="img/humbarger-off.png"></label>
-        <li><a href="#profile">プロフィール</a></li>
-        <li><a href="#results">実績</a></li>
-        <li><a href="#twitter">Twitter</a></li>
-      </ul>
-    </nav>
-
-    <div class="header-img">
-      <img class="header-img-pc" src="img/header-img.png">
-      <img class="header-img-sp" src="img/header-img-sp.png">
+    <div class="header-logo" id="top">
+      <a href="#"><img src="img/header-logo.jpg"></a>
     </div>
-
+    <img class="top-img" src="img/top-img.jpg">
+    <div class="header-nav">
+      <ul>
+        <li><a href="#profile" class="btn">プロフィール</a></li>
+        <li><a href="#service" class="btn">サービス</a></li>
+        <li><a href="#works" class="btn">作品</a></li>
+      </ul>
+    </div>
   </header>
 
   <main>
-
-    <section id="profile">
-      <h2>プロフィール</h2>
-
+    <section>
+      <h1 class="subtitle" id="profile">プロフィール</h1>
       <div class="profile-wrapper">
-
-        <div class="profile-img">
-          <img src="img/dogpc.jpg">
-        </div>
-        <div class="profile-text">
-          <table>
-            <tr>
-              <td>名前</td>
-              <td>いいじま　こうじ</td>
-            </tr>
-            <tr>
-              <td>プログラミング歴</td>
-              <td>１ヶ月</td>
-            </tr>
-            <tr>
-              <td>スキル</td>
-              <td>HTML/CSS<br>Java Script(勉強中)</td>
-            </tr>
-            <tr>
-              <td>稼働時間</td>
-              <td>１日平均２、３時間ほど<br>（主に20時以降）</td>
-            </tr>
-            <tr>
-              <td>日常のお話</td>
-              <td>2021年8月に第一子誕生予定🎈✨<br>新米パパ（仮）</td>
-            </tr>
-            
-          </table>
-        </div>
-
+        <img src="img/sorry.png" class="sorry">
       </div>
-    </section>
-
-    <section id="works">
-
-      <h2>実績</h2>
-      <div class="works-wrapper">
-
-        <div class="works">
-          <a href="practice/tottaly/index.html" target="blank"><img src="img/tottaly.png"><p>架空の衣料通販サイト<br>（制作時間：５時間）</p></a>
-          <div class="works-text">
-            <p>模写コーディング処女作。初めてのアウトプット作業でわからないことだらけで着手しました。シンプルだけどまとまったレイアウトの作品にできました。レスポンシブ対応</p>
-          </div>
-        </div>
-
-        <div class="works">
-          <a href="practice/paspol/index.html" target="blank"><img src="img/paspol.png"><p>架空の旅行会社サイト<br>（制作時間：10時間）</p></a>
-          <div class="works-text">
-            <p>模写コーディング２作目。本来はトップの画像は自動でスクロールするようになっていますが、Java Scriptを習得するまではお預け。。。初めてレスポンシブデザインでのハンバーガーメニューの実装で、主にそこに時間をとられてしまいました💦</p>
-          </div>
-        </div>
-
-        <div class="works">
-          <a href="practice/20210414/index.html" target="blank"><img src="img/sugutabe.png"><p>架空の野菜配送サービスサイト<br>（制作時間：10時間）</p></a>
-          <div class="works-text">
-            <p>セクション一つひとつのレイアウトが少しずつ違っていたので、その都度違うレイアウトの方法を考えるのがしんどかったですけど、形になった時の喜びを多く味わえる作品になりました😀🎶PC画面でも色んなこと考えるのに、さらにレスポンシブにも対応させるなんて😵❗️</p>
-          </div>
-        </div>
-
-        <div class="works">
-          <a href="practice/kneipp/index.html" target="blank"><img src="img/kneipp.png"alt="kneippの画像" ><p>Kneippの広告サイト<br>（制作時間：8時間）</p></a>
-          <div class="works-text">
-            <p>レスポンシブ対応に苦戦して、思った通りの配置にならなくて悩みました。ページ中盤のフレームの作り方がわからなく、自作もできずに結局ドットのボーダーにしてしまったのは後で改善したいな、と思うところ。。。</p>
-          </div>
-        </div>
-
-      </div>
-
     </section>
 
     <section>
-      <h2>Twitter</h2>
-      <div class="twitter-wrapper">
-        <img src="img/dogpc.jpg">
-        <p>こうじのTwitterアカウントはこちら<br>↓↓↓</p>
-            <a class="btn" href="https://twitter.com/aruma11111" target="blank">Twitter</a>
-      </div>         
+      <h1 class="subtitle" id="service">サービス</h1>
+      <div class="service-wrapper">
+        <img src="img/sorry.png" class="sorry">
+      </div>
     </section>
 
-  </main>
-
-
+    <section>
+      <h1 class="subtitle" id="works">作品</h1>
+      
+      <div class="works-wrapper">
+        <div class="works">
+          <ul>
+            <li>
+              <a href="practice/kneipp/index.html" target="blank">
+                <img src="img/kneipp.png">
+                <h2>入浴剤の広告<br><span>（制作時間：8時間）</span></h2>
+              </a>
+              <p>レスポンシブ対応に苦戦して、思った通りの配置にならなくて悩みました。ページ中盤のフレームの作り方がわからなく、自作もできずに結局ドットのボーダーにしてしまったのは後で改善したいな、と思うところ。。。</p>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="works">
+          <ul>
+            <li>
+              <a href="practice/20210414/index.html" target="blank">
+                <img src="img/sugutabe.png">
+                <h2>架空の野菜配送サービス<br><span>（制作時間：10時間）</span></h2>
+              </a>
+              <p>セクション一つひとつのレイアウトが少しずつ違っていたので、その都度違うレイアウトの方法を考えるのがしんどかったですけど、形になった時の喜びを多く味わえる作品になりました😀🎶PC画面でも色んなこと考えるのに、さらにレスポンシブにも対応させるなんて😵❗️</p>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="works">
+          <ul>
+            <li>
+              <a href="practice/paspol/index.html" target="blank">
+                <img src="img/paspol.png">
+                <h2>旅行会社サイト<br><span>（制作時間：8時間）</span></h2>
+              </a>
+              <p>模写コーディング２作目。本来はトップの画像は自動でスクロールするようになっていますが、Java Scriptを習得するまではお預け。。。初めてレスポンシブデザインでのハンバーガーメニューの実装で、主にそこに時間をとられてしまいました💦</p>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="works">
+          <ul>
+            <li>
+              <a href="practice/tottaly/index.html" target="blank">
+                <img src="img/tottaly.png">
+                <h2>架空の通販サイト<br><span>（制作時間：８時間）</span></h2>
+              </a>
+              <p>模写コーディング処女作。初めてのアウトプット作業でわからないことだらけで着手しました。シンプルだけどまとまったレイアウトの作品にできました。レスポンシブ対応もしています。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="top-btn">
+        <a href="#top"><img src="img/top-btn.png"></a>
+      </div>
+    </section>
+      
+    </main>
+    
+    <footer>
+      <div class="footer-wrapper">
+        <a href="https://twitter.com/aruma11111" class="contact" target="blank"><img src="img/twitter-icon.png"></a>
+        <a href="https://twitter.com/aruma11111" class="contact" target="blank"><img src="img/twitter-icon.png"></a>
+        <a href="https://twitter.com/aruma11111" class="contact" target="blank"><img src="img/twitter-icon.png"></a>
+    </div>
+      
+    <p>こうじドットコム</p>
+  </footer>
 
 </body>
     
