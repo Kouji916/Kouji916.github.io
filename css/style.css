@@ -1,0 +1,294 @@
+body {
+  padding-top: 58px;
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  color: #303030;
+  background: #fff6ef;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background: #fff;
+  z-index: 2;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.sp-menu {
+  margin-left: auto;
+}
+
+.sp-menu #open {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.sp-menu #open.hidden {
+  display: none;
+}
+
+.overlay-back {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,.8);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .4s;
+  z-index: 1;
+}
+
+.overlay-back:hover {
+  cursor: pointer;
+}
+
+.overlay-back.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 45%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .4s;
+  z-index: 2;
+}
+
+.overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay #close {
+  position: absolute;
+  top: 16px;
+  right: 14px;
+  font-size: 26px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.overlay ul {
+  padding: 60px 0 0;
+}
+
+.overlay li {
+  width: 120px;
+  margin: 0 auto;
+  text-align: center;
+  transition: transform .3s;
+}
+
+.overlay li a {
+  display: block;
+  color: #333;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.overlay li:hover {
+  transform:scale(1.2);
+}
+
+.top-img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+section {
+  width: 90%;
+  margin: 0 auto 30px;
+  padding: 20px 0;
+  border-bottom: 3px dotted #ffdab9;
+}
+
+section:last-child {
+  border: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.sec-title {
+  display: inline-block;
+  font-size: 28px;
+  font-family: 'Corben', cursive;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto 30px;
+  background: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.content-img {
+  width: 100%;
+}
+
+.content-img img {
+  width: 100%;
+}
+
+.content-text .content-title {
+  display: flex;
+  align-items: flex-end;
+  margin: 16px 0;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.content-text .blog-text {
+  font-size: 14px;
+  color: #707070;
+  line-height: 18px;
+}
+
+.archive-link {
+  width: 180px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.archive-link a {
+  display: block;
+  background: #ffc396;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #000;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.archive-link a:hover {
+  background: #ffa768;
+  text-decoration: underline;
+}
+
+.archive-link a::before {
+  content:"▶︎ ";
+}
+
+.content-text .content-title.works-title {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.content-img a {
+  transition: all .3s;
+}
+
+.content-img a:hover {
+  opacity: .8;
+}
+
+.title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+.profile-img img {
+  width: 100%;
+}
+
+.profile-text {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 20px 0 0;
+}
+
+.profile-text tr {
+  display: flex;
+}
+
+.profile-text td {
+  display: inline-block;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.profile-text td:nth-child(1) {
+  flex: 1;
+}
+
+.profile-text td:nth-child(2) {
+  flex: 2;
+}
+
+.profile-text td + td {
+  padding-left: 20px;
+}
+
+footer {
+  background: #ffe4c4;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.footer-nav ul {
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  display: flex;
+}
+
+.footer-nav li + li {
+  margin-left: 18px;
+}
+
+.footer-nav li a {
+  color: #9a9a9a;
+  line-height: 24px;
+  display: block;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.footer-nav li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.footer-img img {
+  padding: 20px 0;
+}
+
+.copyright {
+  color: #303030;
+  font-size: 14px;
+}
+
+.top-link img {
+  width: 30px;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
