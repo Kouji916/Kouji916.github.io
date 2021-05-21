@@ -4,113 +4,249 @@
     <meta charset="utf-8">
     <title>Kouji's Page</title>
     <link rel="icon" href="img/icon.png">
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   </head>
     
-<body>
-
-  <header>
-    <div class="header-logo" id="top">
-      <a href="#"><img src="img/header-logo.jpg"></a>
+  <body id="top-page">
+    <header>
+      <div class="logo">
+        <img src="img/logo.png">
+      </div>
+      <div class="sp-menu">
+        <span class="material-icons" id="open">menu</span>   
+      </div>
+    </header>
+    
+    <div class="overlay-back"></div>
+    <div class="overlay">
+      <span class="material-icons" id="close">close</span>  
+      <nav>
+        <ul>
+          <li><a href="#">TOP</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">PROFILE</a></li>
+        </ul>
+      </nav>
     </div>
+
     <img class="top-img" src="img/top-img.jpg">
-    <div class="header-nav">
-      <ul>
-        <li><a href="#profile" class="btn">プロフィール</a></li>
-        <li><a href="#service" class="btn">サービス</a></li>
-        <li><a href="#works" class="btn">作品</a></li>
-      </ul>
-    </div>
-  </header>
-
-  <main>
-    <section>
-      <h1 class="subtitle" id="profile">プロフィール</h1>
-      <div class="profile-wrapper">
-        <img src="img/sorry.png" class="sorry">
-      </div>
-    </section>
-
-    <section>
-      <h1 class="subtitle" id="service">サービス</h1>
-      <div class="service-wrapper">
-        <img src="img/sorry.png" class="sorry">
-      </div>
-    </section>
-
-    <section>
-      <h1 class="subtitle" id="works">作品</h1>
-      
-      <div class="works-wrapper">
-        <div class="works">
-          <ul>
-            <li>
-              <a href="practice/kneipp/index.html" target="blank">
-                <img src="img/kneipp.png">
-                <h2>入浴剤の広告<br><span>（制作時間：8時間）</span></h2>
-              </a>
-              <p>レスポンシブ対応に苦戦して、思った通りの配置にならなくて悩みました。ページ中盤のフレームの作り方がわからなく、自作もできずに結局ドットのボーダーにしてしまったのは後で改善したいな、と思うところ。。。</p>
-            </li>
-          </ul>
-        </div>
         
-        <div class="works">
-          <ul>
-            <li>
-              <a href="practice/20210414/index.html" target="blank">
-                <img src="img/sugutabe.png">
-                <h2>架空の野菜配送サービス<br><span>（制作時間：10時間）</span></h2>
-              </a>
-              <p>セクション一つひとつのレイアウトが少しずつ違っていたので、その都度違うレイアウトの方法を考えるのがしんどかったですけど、形になった時の喜びを多く味わえる作品になりました😀🎶PC画面でも色んなこと考えるのに、さらにレスポンシブにも対応させるなんて😵❗️</p>
-            </li>
-          </ul>
+    <main>
+      <section>
+        <h1 class="sec-title">MY BLOG</h1>
+          <div class="container">
+            <div class="content-img">
+              <img src="img/blog-img.png">
+            </div>
+            <div class="content-text">
+              <div class="content-title">
+                <div class="title">
+                  <h2>タイトル１</h2>
+                </div>
+                <div class="date">
+                  (2021.5.20)
+                </div>
+              </div>
+              <div class="blog-text">
+                <p>
+                  ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="content-img">
+              <img src="img/blog-img.png">
+            </div>
+            <div class="content-text">
+              <div class="content-title">
+                <div class="title">
+                  <h2>タイトル２</h2>
+                </div>
+                <div class="date">
+                  (2021.5.24)
+                </div>
+              </div>
+              <div class="blog-text">
+                <p>
+                  ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="content-img">
+              <img src="img/blog-img.png">
+            </div>
+            <div class="content-text">
+              <div class="content-title">
+                <div class="title">
+                  <h2>タイトル３</h2>
+                </div>
+                <div class="date">
+                  (2021.5.26)
+                </div>
+              </div>
+              <div class="blog-text">
+                <p>
+                  ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="archive-link">
+            <a href="#">ブログ一覧を見る</a>
+          </div>
+      </section>
+
+      <section>
+        <h1 class="sec-title">MY WORKS</h1>
+        <div class="container">
+          <div class="content-img">
+            <a href="https://kouji916.github.io/practice/kneipp/index.html" target="blank"><img src="img/kneipp.png"></a>
+          </div>
+          <div class="content-text">
+            <div class="content-title works-title">
+              <div class="title">
+                <h2><a href="https://kouji916.github.io/practice/kneipp/index.html" target="blank">入浴剤のページ</a></h2>
+              </div>
+              <div class="date">
+                (制作時間：約８時間)
+              </div>
+            </div>
+            <div class="blog-text">
+              <p>
+                ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。
+              </p>
+            </div>
+          </div>
         </div>
-        
-        <div class="works">
-          <ul>
-            <li>
-              <a href="practice/paspol/index.html" target="blank">
-                <img src="img/paspol.png">
-                <h2>旅行会社サイト<br><span>（制作時間：8時間）</span></h2>
-              </a>
-              <p>模写コーディング２作目。本来はトップの画像は自動でスクロールするようになっていますが、Java Scriptを習得するまではお預け。。。初めてレスポンシブデザインでのハンバーガーメニューの実装で、主にそこに時間をとられてしまいました💦</p>
-            </li>
-          </ul>
+        <div class="container">
+          <div class="content-img">
+            <a href="https://kouji916.github.io/practice/paspol/index.html" target="blank"><img src="img/paspol.png"></a>
+          </div>
+          <div class="content-text">
+            <div class="content-title works-title">
+              <div class="title">
+                <h2><a href="https://kouji916.github.io/practice/paspol/index.html" target="blank">旅行会社のページ</a></h2>
+              </div>
+              <div class="date">
+                (制作時間：約８時間)
+              </div>
+            </div>
+            <div class="blog-text">
+              <p>
+                ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。
+              </p>
+            </div>
+          </div>
         </div>
-        
-        <div class="works">
-          <ul>
-            <li>
-              <a href="practice/tottaly/index.html" target="blank">
-                <img src="img/tottaly.png">
-                <h2>架空の通販サイト<br><span>（制作時間：８時間）</span></h2>
-              </a>
-              <p>模写コーディング処女作。初めてのアウトプット作業でわからないことだらけで着手しました。シンプルだけどまとまったレイアウトの作品にできました。レスポンシブ対応もしています。</p>
-            </li>
-          </ul>
+        <div class="container">
+          <div class="content-img">
+            <a href="https://kouji916.github.io/practice/20210414/index.html" target="blank"><img src="img/sugutabe.png"></a>
+          </div>
+          <div class="content-text">
+            <div class="content-title works-title">
+              <div class="title">
+                <h2><a href="https://kouji916.github.io/practice/20210414/index.html" target="blank">食材配送サービス</a></h2>
+              </div>
+              <div class="date">
+                (制作時間：約８時間)
+              </div>
+            </div>
+            <div class="blog-text">
+              <p>
+                ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      
-      <div class="top-btn">
-        <a href="#top"><img src="img/top-btn.png"></a>
-      </div>
-    </section>
-      
+        <div class="container">
+          <div class="content-img">
+            <a href="https://kouji916.github.io/practice/tottaly/index.html" target="blank"><img src="img/tottaly.png"></a>
+          </div>
+          <div class="content-text">
+            <div class="content-title works-title">
+              <div class="title">
+                <h2><a href="https://kouji916.github.io/practice/tottaly/index.html" target="blank">架空の通販サイト</a></h2>
+              </div>
+              <div class="date">
+                (制作時間：約６時間)
+              </div>
+            </div>
+            <div class="blog-text">
+              <p>
+                ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。ここにテキストを入れる。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 class="sec-title">MY PROFILE</h1>
+        <div class="container">
+          <div class="profile-img">
+            <img src="img/my-photo.png">
+          </div>
+          <div class="profile-text">
+            <table>
+              <tr>
+                <td>名前</td>
+                <td>こうじ(Kouji)</td>
+              </tr>
+              <tr>
+                <td>基本情報</td>
+                <td>男性/1989年9月生</td>
+              </tr>
+              <tr>
+                <td>所在地</td>
+                <td>神奈川県相模原市</td>
+              </tr>
+              <tr>
+                <td>使用言語</td>
+                <td>HTML,CSS,JavaScript</td>
+              </tr>
+              <tr>
+                <td>対応可能なツール</td>
+                <td>ChatWork,Zoom（他ツールでも遠慮なくご相談ください）</td>
+              </tr>
+              <tr>
+                <td>Twitter</td>
+                <td><a href="https://twitter.com/kouji16_com">@kouji_com</a></td>
+              </tr>
+              <tr>
+                <td>その他</td>
+                <td>本業は福祉施設職員として勤務しています。シフト制（夜勤有）ですが、日中の稼働時間は1日平均2~3時間ほど確保することが可能です。目標は副収入として月５万円稼ぐことです！</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
     </main>
-    
-    <footer>
-      <div class="footer-wrapper">
-        <a href="https://twitter.com/aruma11111" class="contact" target="blank"><img src="img/twitter-icon.png"></a>
-        <a href="https://twitter.com/aruma11111" class="contact" target="blank"><img src="img/twitter-icon.png"></a>
-        <a href="https://twitter.com/aruma11111" class="contact" target="blank"><img src="img/twitter-icon.png"></a>
+    <div class="top-link">
+      <a href="#top-page"><img src="img/top-link.png"></a>
     </div>
-      
-    <p>こうじドットコム</p>
-  </footer>
-
-</body>
-    
+    <footer>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#top-page">TOP</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">PROFILE</a></li>
+        </ul>
+      </div>
+      <div class="footer-img">
+        <img src="img/logo.png">
+      </div>
+      <div class="copyright">
+        Copyright © Kouji All Rights Reserved.
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>
