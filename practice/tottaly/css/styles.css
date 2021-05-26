@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+#open-btn, #close-btn {
+  display: none;
+}
+
 .header-wrapper {
   border-bottom: 1px solid #000;
   width: 95%;
