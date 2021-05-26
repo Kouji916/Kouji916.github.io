@@ -274,6 +274,7 @@ header {
 
   .category-img img, .category-img2 img {
     width: 150px;
+    height: 150px;
   }
 
 }
